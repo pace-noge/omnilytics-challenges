@@ -1,3 +1,3 @@
-- without print the code work almost instantly.
+- without print the code work almost instantly. at line 38
 - after using threading the code run in 58s on my laptop
 - before using threading the program run for almost 150s

@@ -75,49 +75,6 @@ def main(file_name="out.txt"):
     print(f"Alphanumeric Data: {(result['alphanum']/total) * 100} %")
     print(f"String Data: {(result['string']/total) * 100} %")
     print(f"Real Numbers Data: {(result['real_num']/total) * 100} %")
-
-
-
-    #     for obj in row:
-    #         if obj.isdigit():
-    #             obj_type = "integer"
-    #             integer_data += 1
-    #         else:
-    #             if " " in obj:
-    #                 obj_type = "alphanumeric"
-    #                 alphanumeric_data += 1
-    #                 obj = obj.strip()
-    #             else:
-    #                 if obj.isalpha():
-    #                     obj_type = "alphabetical strings"
-    #                     alpha_data += 1
-    #                 else:
-    #                     obj_type = "real numbers"
-    #                     real_number_data += 1
-    #         total += 1
-    #         print(f"{obj} - {obj_type}")
-                
-    #         # if obj.startswith(" ") and obj.endswith(" "):
-    #         #     obj_type = "alphanumeric"
-    #         #     alphanumeric_data += 1
-    #         # else:
-    #         #     if obj.isdigit():
-    #         #         obj_type = "integer"
-    #         #         integer_data += 1
-    #         #     elif obj.isalpha():
-    #         #         obj_type = "alphabetical strings"
-    #         #         alpha_data += 1
-    #         #     else:
-    #         #         obj_type = "real numbers"
-    #         #         real_number_data += 1
-            
-    #         # total += 1        
-    #         # print(f"{obj.strip()} - {obj_type}")
-    # print("*" * 10)
-    # print(f"Integer Data: {(integer_data/total) * 100}%")
-    # print(f"Alphanumeric Data: {(alphanumeric_data/total) * 100}%")
-    # print(f"String Data: {(alpha_data/total) * 100}%")
-    # print(f"Real Numbers Data: {(real_number_data/total) * 100}%")
                     
 
 if __name__ == "__main__":
