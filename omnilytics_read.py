@@ -35,7 +35,7 @@ def print_data(obj_data):
                 else:
                     obj_type = "real numbers"
                     summary['real_num'] += 1
-        # print(f"{obj} - {obj_type}")
+        print(f"{obj} - {obj_type}")
     return summary
 
 
