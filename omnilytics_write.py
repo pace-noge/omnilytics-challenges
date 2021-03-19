@@ -85,15 +85,15 @@ def main(file_name="out_file.txt"):
 
     while int_length < integer_data_length:
         int_obj = random_int(gen_random_length(5, 20))
-        int_length += len(int_obj) + 1
+        int_length += len(int_obj) + 1 # plus comma
         integer_data.append(int_obj)
 
     non_integer = []
     non_integer_length = 0
 
-    while non_integer_length < 10485760//2:
+    while non_integer_length < max_data//2:
         obj_to_write = generate_random_data_type()
-        non_integer_length += len(obj_to_write) + 1
+        non_integer_length += len(obj_to_write) + 1 # plus comma
         non_integer.append(obj_to_write)
 
 
